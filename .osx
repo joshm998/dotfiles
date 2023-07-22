@@ -165,6 +165,7 @@ defaults write com.apple.dock tilesize -int 30
 
 # Sets dock magnification
 defaults write com.apple.dock largesize -int 128
+defaults write com.apple.dock magnification -bool true
 
 # Speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.15
